@@ -30,15 +30,32 @@ This project uses machine learning to predict the **outcome of a medical diagnos
 ```bash
 https://github.com/balasai345/medical-diagnosis-predictor.git
 cd medical-diagnosis-predictor
----
+
+```
 
 ### 2. Install Requirements
+
+```bash
 pip install -r requirements.txt
-or type manually
+```
+
+Or manually:
+
+```bash
 pip install pandas scikit-learn joblib streamlit matplotlib seaborn
+```
+
 ### 3. Run the Web App
+
+```bash
 streamlit run app.py
+```
+
+---
+
 ## 📁 Project Structure
+
+```
 .
 ├── app.py                          # Streamlit web app
 ├── model-r.py                     # Model training script
@@ -48,14 +65,31 @@ streamlit run app.py
 ├── Disease_symptom_and_patient_profile_dataset.csv  # Input dataset
 ├── README.md                      # Project documentation
 └── requirements.txt               # List of dependencies
+```
+
+---
+
+
 ## ScreenShots
 ![Screenshot 2025-05-01 153847](https://github.com/user-attachments/assets/299f2902-3527-421a-9c36-1209af82a330)
 ![Screenshot 2025-05-01 153928](https://github.com/user-attachments/assets/aa629f27-3be2-42ca-a001-ca6aa586f493)
-📚 Acknowledgments
+
+---
+
+
+## 📚 Acknowledgments
 Dataset: Synthetic/curated medical dataset with symptoms and diagnosis.
 Libraries: Scikit-learn, Streamlit, Pandas, Matplotlib, Seaborn.
-⚠️ Disclaimer
+
+---
+
+
+## ⚠️ Disclaimer
 This project is for educational purposes only. It is not a substitute for professional medical diagnosis.
+
+---
+
 ## 🧑‍💻 Author
-Your Name
+Bala Sai Teja Jaddu
+
 www.linkedin.com/in/bala-sai-teja-jaddu-a6775028a | https://github.com/balasai345
